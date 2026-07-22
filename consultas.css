@@ -1,0 +1,55 @@
+body{background-color: #eef3f8;
+font-family: Arial, Helvetica, sans-serif;
+}
+.consulta-box{
+width: 450px;
+margin: 50px auto;
+background:white
+padding 30px;
+border-radius: 15px;
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0, 15);
+}
+
+h1{
+text-align: center;
+color: #0b5ed7;
+}
+
+label{
+font-size: bold;
+}
+
+select,
+input{
+width: 100%;
+height: 50px;
+ background: #0b5ed7;
+color: white;
+border: none;
+border-radius: 10px;
+font-size: 17px;
+cursor: pointer;
+}
+.agendar{
+width: 100px;
+height: 50px;
+margin-top: 15px;
+background: #0b5ed7;
+color: white;
+border: none;
+border-radius: 17px;
+font-size: 17px;
+cursor: pointer;
+}
+
+.voltar{
+width: 100px;
+height: 50px;
+margin-top: 15px;
+background: #0b5ed7;
+color: white;
+border: none;
+border-radius: 17px;
+font-size: 17px;
+cursor: pointer;
+}

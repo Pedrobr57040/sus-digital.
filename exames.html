@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exames</title>
+
+    <link rel="stylesheet" href="exames.css" />
+  </head>
+
+  <body>
+    <div class="exames-box">
+      <h1>Agendamento de Exames</h1>
+
+      <label for="tipoExame">Tipo de Exame</label>
+
+      <select id="tipoExame">
+        <option>Selecione um exame</option>
+        <option>Hemograma</option>
+        <option>Raio-X</option>
+        <option>Ultrassom</option>
+        <option>Eletrocardiograma</option>
+        <option>Tomografia</option>
+      </select>
+
+      <label for="local">Local</label>
+
+      <select id="local">
+        <option>Hospital</option>
+        <option>UBS</option>
+        <option>Clínica</option>
+      </select>
+
+      <label for="dataExame">Data</label>
+
+      <input type="date" id="dataExame" />
+
+      <label for="horarioExame">Horário</label>
+
+      <input type="time" id="horarioExame" />
+
+      <button class="agendar" onclick="agendarExame()">Agendar Exame</button>
+
+      <button class="voltar" onclick="voltar()">Voltar</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

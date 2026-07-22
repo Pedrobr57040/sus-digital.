@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f5f5f5;
+}
+
+.vacinas{
+    width:80%;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    color:#1b7f3b;
+}
+
+h2{
+    margin-top:30px;
+    color:#1b7f3b;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+
+th{
+    background:#1b7f3b;
+    color:white;
+    padding:12px;
+}
+
+td{
+    border:1px solid #ccc;
+    padding:10px;
+    text-align:center;
+}
+
+tr:hover{
+    background:#eeeeee;
+}
+
+.voltar{
+    margin-top:30px;
+    width:180px;
+    height:45px;
+    border:none;
+    border-radius:8px;
+    background:#1b7f3b;
+    color:white;
+    cursor:pointer;
+}
+
+.voltar:hover{
+    background:#14632d;
+}

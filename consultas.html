@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>consulta</title>
+    <link rel="stylesheet" href="consultas.css"
+  </head>
+  <body>
+
+<div class="consultas">
+  <h1>Agendamento de consultas</h1>
+
+  <label for="medico">medico</label>
+  <select id="medico">
+    <option>DR. João Silva</option>
+    <option>DRA. Maria Costa</option>
+    <option>DR. Pedro Santos</option>
+  </select>
+
+  <label for="especialidade">Especialidade</label>
+  <select>
+    <option>Clinico geral</option>
+    <option>cardiologia</option>
+    <option>Dermatologia</option>
+    <option>Pediatria</option>
+    <option>ortopedia</option>
+  </select>
+
+  <label for="data">data</label>
+  <input type="date" id="data" />
+
+  <label for="horario">horario</label>
+  <input type="time" id="horario" />
+
+  <button class="agendar" onclick="agendarconsulta()">agendar</button>
+  <button class="voltar" onclick="voltar()">voltar</button>
+
+</div>
+
+<script src="script.js"></script>
+  </body>
+</html>
+
